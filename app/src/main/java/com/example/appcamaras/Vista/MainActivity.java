@@ -23,13 +23,11 @@ import com.example.appcamaras.R;
 public class MainActivity extends AppCompatActivity {
 
     // Controles de la vista
-    private TextView txtTitulo;
     private EditText txtModelo;
     private EditText txtMetros;
     private CheckBox chkBalun;
     private Button btnCalcular;
     private TextView txtResultado;
-    private TextView txtFirma;
 
     private clsCamaraPresentador presenter;
 
@@ -39,13 +37,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Enlaza cada variable con su control del XML
-        txtTitulo = findViewById(R.id.txtTitulo);
         txtModelo = findViewById(R.id.txtModelo);
         txtMetros = findViewById(R.id.txtMetros);
         chkBalun = findViewById(R.id.chkBalun);
         btnCalcular = findViewById(R.id.btnCalcular);
         txtResultado = findViewById(R.id.txtResultado);
-        txtFirma = findViewById(R.id.txtFirma);
 
         // Se crea el presentador pasándole esta vista
         presenter = new clsCamaraPresentador(this);
