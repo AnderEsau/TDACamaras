@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">appCamaras</string>
+    <string name="txtTitulo">Calculadora de Instalación CCTV</string>
+    <string name="txtModelo">Modelo de la cámara (ej. Dahua)</string>
+    <string name="txtMetros">Distancia DVR - cámara (metros)</string>
+    <string name="chkBalun">Usar balunes de video</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="txtFirma">Desarrollado por: Ander Esau Hernández Jiménez</string>
+
+</resources>
